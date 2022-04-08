@@ -56,7 +56,7 @@ You can also let Valgrind generate suppression file for you. Use ```-gen-suppres
 
 ## Parse XML output
 
-Write your use [ValgrindCI](https://pypi.org/project/ValgrindCI/) tool or write custom XML parser.
+You can write your own using [ValgrindCI](https://pypi.org/project/ValgrindCI/) tool or write a custom XML parser.
 
 ### ValgrindCI tool
 ```
