@@ -60,7 +60,12 @@ Write your use [ValgrindCI](https://pypi.org/project/ValgrindCI/) tool or write 
 
 ### ValgrindCI tool
 ```
-into a file and pass it to valgrind with --suppressions=./path/to/suppresion/my_app.supp.
+- name: Valgrind Memory check
+        run: |
+          pip install ValgrindCI
+					echo "Summary report of errors"
+					valgrind-ci /path/to/output_file.xml --summary
+	        valgrind-ci /path/to/output_file.xml --abort-on-errors # abort on errors
 ```
 
 ### Custom XML parser in Bash
