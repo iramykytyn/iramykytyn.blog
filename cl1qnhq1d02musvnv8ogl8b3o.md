@@ -83,7 +83,7 @@ Imagine we have a simple C++ application. The app creates 4 threads and printout
 
 ### sample_app.cpp
 
-```
+```с++
 #include <string>
 #include <iostream>
 #include <vector>
