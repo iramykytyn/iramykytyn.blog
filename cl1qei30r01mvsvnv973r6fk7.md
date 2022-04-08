@@ -10,7 +10,7 @@ You can do it in 3 steps:
 
 These steps are common for every possible CI. Let’s see it on GitHub Actions example.
 
-> 💡 If you did not work with GitHub Actions before, see Quickstart for GitHub Actions.
+> 💡 If you did not work with GitHub Actions before, see [Quickstart for GitHub Actions](https://docs.github.com/en/actions/quickstart).
 
 
 ## Add Valgrind install step to ```yml``` file
