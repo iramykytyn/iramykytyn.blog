@@ -171,5 +171,6 @@ Don’t know what Resident and Virtual memory mean on this dashboard? In my next
 
 
 ---------------------------------------------------------------------------------------
-#SupportUkraine #StandWithUkraine 🇺🇦 
+#SupportUkraine #StandWithUkraine 🇺🇦
+
 Please support Ukraine if this article was interesting for you: https://lnkd.in/gi_F9Zsh.
