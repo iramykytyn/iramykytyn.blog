@@ -37,7 +37,7 @@ You can run into the issue that Valgrind version is not compatible with your CI 
 ```--suppressions=./path/to/suppresion/my_app.supp``` - this option is needed only if you have suppression file.
 You can generate suppressions for the errors for the libraries, but it’s not a good practice.
 It's hard to know if a memory error in the library is caused by a problem in your code or not.
-But if it is not possible to fix a leak, and you are sure it’s not your leak, then 1) suppress errors from the library (short-term solution), 2) upgrade the library or connect the community who supports it and ask for a fix.
+But if it is not possible to fix a leak, and you are sure it’s not your leak, then 1) suppress errors from the library (short-term solution); 2) upgrade the library or connect the community who supports it and ask for a fix.
 Example of the first option. Ignore Leak errors in **libcrypto** only, you could put a [suppression](https://valgrind.org/docs/manual/mc-manual.html#mc-manual.suppfiles) like:
 
 ```
@@ -49,9 +49,9 @@ Example of the first option. Ignore Leak errors in **libcrypto** only, you could
 }
 ```
 
-into a file and pass it to ```valgrind``` with 
-```--suppressions=./path/to/suppresion/my_app.supp```.
+into a file and pass it to ```valgrind``` with ```--suppressions=./path/to/suppresion/my_app.supp```.
 You can also let Valgrind generate suppression file for you. Use ```-gen-suppressions=yes``` from [Core Command-line Options](https://valgrind.org/docs/manual/manual-core.html#manual-core.options).
+
 ```--xml=yes --xml-file=unit_tests_valgrind.xml``` - enable Valgrind’s to report in XML format and save it in ```unit_tests_valgrind.xml```.
 
 
