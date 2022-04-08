@@ -62,11 +62,11 @@ You can write your own using [ValgrindCI](https://pypi.org/project/ValgrindCI/) 
 ### ValgrindCI tool
 ```
 - name: Valgrind Memory check
-        run: |
-          pip install ValgrindCI
-					echo "Summary report of errors"
-					valgrind-ci /path/to/output_file.xml --summary
-	        valgrind-ci /path/to/output_file.xml --abort-on-errors # abort on errors
+       run: |
+           pip install ValgrindCI
+		   echo "Summary report of errors"
+		   valgrind-ci /path/to/output_file.xml --summary
+	       valgrind-ci /path/to/output_file.xml --abort-on-errors # abort on errors
 ```
 
 ### Custom XML parser in Bash
