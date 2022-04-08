@@ -9,7 +9,7 @@ Have you ever wondered how to know how much CPU and memory resources is your app
 
 ### Install Prometheus
 Following Prometheus official setup guide: [https://prometheus.io/docs/introduction/first_steps/](https://prometheus.io/docs/introduction/first_steps/).
-```
+```bash
 wget https://github.com/prometheus/prometheus/releases/download/v2.33.1/prometheus-2.33.1.linux-amd64.tar.gz
 tar xvfz prometheus-2.33.1.linux-amd64.tar.gz
 cd prometheus-2.33.1.linux-amd64
