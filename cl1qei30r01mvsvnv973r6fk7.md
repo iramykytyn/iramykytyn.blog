@@ -171,3 +171,8 @@ jobs:
           echo "Checking Valgrind xml ..."
 	        ./check-memory.sh
 ```
+
+---------------------------------------------------------------------------------------
+#SupportUkraine #StandWithUkraine 🇺🇦
+
+Please support Ukraine if this article was interesting for you: https://lnkd.in/gi_F9Zsh.
